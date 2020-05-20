@@ -1,0 +1,52 @@
+.container {
+  padding-left: 0px !important;
+  padding-right: 0px !important;
+}
+
+@font-face {
+  font-family: "LifeCraft";
+  src: local("LifeCraft"), url(fonts/LifeCraft_Font.ttf) format("opentype");
+}
+
+.navbarBrand {
+  font-family: "LifeCraft";
+  color: gold;
+  font-size: 20px;
+}
+
+.jumbotron {
+  text-align: center;
+  font-family: "LifeCraft";
+  margin-bottom: 0px !important;
+  margin-left: 0px !important;
+  margin-right: 0px;
+  background-color: white !important;
+  /* background-image: url(images/battle.jpg); */
+  /* background-size: cover; */
+  /* color: gold; */
+  /* text-shadow: 2px 2px black; */
+}
+.jumbotron h1 {
+  font-size: 60px;
+  /* color: gold */
+}
+.jumbotron p {
+  font-size: large;
+  margin-bottom: 0px;
+}
+
+.landing-images {
+  width: 100px;
+  height: auto;
+}
+.landing-button {
+  font-family: "LifeCraft";
+}
+
+.center {
+  text-align: center;
+  display: block;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+}
