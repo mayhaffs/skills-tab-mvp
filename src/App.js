@@ -34,7 +34,7 @@ function Footer() {
     <Navbar
       bg="dark"
       variant="dark"
-      sticky="bottom"
+      fixed="bottom"
       className="justify-content-center"
     >
       <Nav className="justify-content-center">
