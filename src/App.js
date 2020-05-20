@@ -38,7 +38,7 @@ function Footer() {
       className="justify-content-center"
     >
       <Nav className="justify-content-center">
-        <Nav.Link href="">Contact</Nav.Link>
+        <Nav.Link href="">-- currently under constrution --</Nav.Link>
       </Nav>
     </Navbar>
   );
