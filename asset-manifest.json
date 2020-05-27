@@ -1,0 +1,30 @@
+{
+  "files": {
+    "main.css": "/skills-tab-mvp/static/css/main.f486d2e1.chunk.css",
+    "main.js": "/skills-tab-mvp/static/js/main.4b6ce34b.chunk.js",
+    "main.js.map": "/skills-tab-mvp/static/js/main.4b6ce34b.chunk.js.map",
+    "runtime-main.js": "/skills-tab-mvp/static/js/runtime-main.5f3a06ed.js",
+    "runtime-main.js.map": "/skills-tab-mvp/static/js/runtime-main.5f3a06ed.js.map",
+    "static/css/2.af3c1da9.chunk.css": "/skills-tab-mvp/static/css/2.af3c1da9.chunk.css",
+    "static/js/2.574f9104.chunk.js": "/skills-tab-mvp/static/js/2.574f9104.chunk.js",
+    "static/js/2.574f9104.chunk.js.map": "/skills-tab-mvp/static/js/2.574f9104.chunk.js.map",
+    "index.html": "/skills-tab-mvp/index.html",
+    "precache-manifest.e46cf69a3658c4df073b6274e3c6fa8f.js": "/skills-tab-mvp/precache-manifest.e46cf69a3658c4df073b6274e3c6fa8f.js",
+    "service-worker.js": "/skills-tab-mvp/service-worker.js",
+    "static/css/2.af3c1da9.chunk.css.map": "/skills-tab-mvp/static/css/2.af3c1da9.chunk.css.map",
+    "static/css/main.f486d2e1.chunk.css.map": "/skills-tab-mvp/static/css/main.f486d2e1.chunk.css.map",
+    "static/js/2.574f9104.chunk.js.LICENSE.txt": "/skills-tab-mvp/static/js/2.574f9104.chunk.js.LICENSE.txt",
+    "static/media/signup.component.css": "/skills-tab-mvp/static/media/LifeCraft_Font.1dd8d81c.ttf",
+    "static/media/_fighter.png": "/skills-tab-mvp/static/media/_fighter.b2a350f6.png",
+    "static/media/_sorcerer.png": "/skills-tab-mvp/static/media/_sorcerer.7523ae62.png",
+    "static/media/App.css": "/skills-tab-mvp/static/media/battle.c468970e.jpg",
+    "static/media/index.css": "/skills-tab-mvp/static/media/unnamed.94ca3642.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.5f3a06ed.js",
+    "static/css/2.af3c1da9.chunk.css",
+    "static/js/2.574f9104.chunk.js",
+    "static/css/main.f486d2e1.chunk.css",
+    "static/js/main.4b6ce34b.chunk.js"
+  ]
+}
