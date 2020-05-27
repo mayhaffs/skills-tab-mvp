@@ -1,5 +1,12 @@
 import React from "react";
 import "./App.css";
+import {
+  BrowserRouter as Router,
+  Switch,
+  Route,
+  Link,
+  NavLink,
+} from "react-router-dom";
 import "bootstrap/dist/css/bootstrap.min.css";
 import { Col, Row, Form } from "react-bootstrap";
 import Container from "react-bootstrap/Container";
@@ -10,24 +17,8 @@ import Button from "react-bootstrap/Button";
 import fighter from "./images/_fighter.png";
 import sorcerer from "./images/_sorcerer.png";
 
-function Navigation() {
-  return (
-    <Navbar bg="dark" variant="dark">
-      <Nav.Link href="" className="navbarBrand">
-        Skills-Tab
-      </Nav.Link>
-      <Nav className="mr-auto">
-        {/* <Nav.Link href="">Home</Nav.Link>
-        <Nav.Link href="">Features</Nav.Link>
-        <Nav.Link href="">Pricing</Nav.Link> */}
-      </Nav>
-      <Nav className="ml-auto">
-        <Nav.Link href="">Login</Nav.Link>
-        <Nav.Link href="">Sign Up</Nav.Link>
-      </Nav>
-    </Navbar>
-  );
-}
+import Login from "./components/login.component";
+import SignUp from "./components/signup.component";
 
 function Footer() {
   return (
@@ -51,6 +42,7 @@ function Footer() {
 
 function LandingPage() {
   return (
+    // <Router>
     <Container>
       <Row>
         <Col xs={0}></Col>
@@ -81,9 +73,11 @@ function LandingPage() {
         <Col xs={3}></Col>
         <Col xs={6}>
           <p className="center landing-button">
-            <Button variant="warning" size="lg">
-              Sign Up
-            </Button>
+            <Link to={"/sign-up"}>
+              <Button variant="warning" size="lg">
+                Sign Up
+              </Button>
+            </Link>
           </p>
         </Col>
         <Col xs={3}></Col>
@@ -93,9 +87,11 @@ function LandingPage() {
         <Col xs={3}></Col>
         <Col xs={6}>
           <p className="center landing-button">
-            <Button variant="warning" size="lg">
-              Login
-            </Button>
+            <NavLink to={"/sign-in"}>
+              <Button variant="warning" size="lg">
+                Login
+              </Button>
+            </NavLink>
           </p>
         </Col>
         <Col xs={3}></Col>
@@ -105,13 +101,155 @@ function LandingPage() {
   );
 }
 
+// function App() {
+//   return (
+//     <div className="App">
+//       <Navigation />
+//       <LandingPage />
+//       <Footer />
+//     </div>
+//   );
+// }
+
+// function App() {
+//   return (
+//     <Router>
+//       <div className="App">
+//         <Navigation />
+//         <LandingPage />
+//         <Footer />
+//       </div>
+//     </Router>
+//   );
+// }
+
+// function App() {
+//   return (
+//     <Router>
+//       <div className="App">
+//         <nav className="navbar navbar-expand-lg navbar-light fixed-top">
+//           <div className="container">
+//             <Link className="navbar-brand" to={"/sign-in"}>
+//               positronX.io
+//             </Link>
+//             <div className="collapse navbar-collapse" id="navbarTogglerDemo02">
+//               <ul className="navbar-nav ml-auto">
+//                 <li className="nav-item">
+//                   <Link className="nav-link" to={"/sign-in"}>
+//                     Login
+//                   </Link>
+//                 </li>
+//                 <li className="nav-item">
+//                   <Link className="nav-link" to={"/sign-up"}>
+//                     Sign up
+//                   </Link>
+//                 </li>
+//               </ul>
+//             </div>
+//           </div>
+//         </nav>
+
+//         <div className="auth-wrapper">
+//           <div className="auth-inner">
+//             <Switch>
+//               <Route exact path="/" component={Login} />
+//               <Route path="/sign-in" component={Login} />
+//               <Route path="/sign-up" component={SignUp} />
+//             </Switch>
+//           </div>
+//         </div>
+//       </div>
+//     </Router>
+//   );
+// }
+
+function Navigation() {
+  return (
+    <Router>
+      <Navbar bg="dark" variant="dark">
+        <NavLink className="navbarBrand" to={"/"}>
+          Skills-Tab
+        </NavLink>
+        <Nav className="mr-auto">
+          {/* <NavLink className="nav-link" to={"/"}>
+            Home
+          </NavLink>
+          <NavLink className="nav-link" to={"/"}>
+            Features
+          </NavLink>
+          <NavLink className="nav-link" to={"/"}>
+            Pricing
+          </NavLink> */}
+        </Nav>
+        <Nav className="ml-auto">
+          <Nav.Item className="nav-item">
+            <NavLink className="nav-link" to={"/sign-in"}>
+              Login
+            </NavLink>
+          </Nav.Item>
+          <NavLink className="nav-link" to={"/sign-up"}>
+            Sign Up
+          </NavLink>
+        </Nav>
+      </Navbar>
+
+      <div className="auth-wrapper">
+        <div className="auth-inner">
+          <Switch>
+            <Route exact path="/" component={LandingPage} />
+            <Route path="/sign-in" component={Login} />
+            <Route path="/sign-up" component={SignUp} />
+          </Switch>
+        </div>
+      </div>
+    </Router>
+  );
+}
+
 function App() {
   return (
-    <div className="App">
-      <Navigation />
-      <LandingPage />
-      <Footer />
-    </div>
+    <Router>
+      <div className="App">
+        {/* <Navbar className="navbar navbar-expand-lg navbar-light fixed-top">
+          <Container>
+            <Navbar.Brand>
+              <Nav.Link className="navbar-brand" to={"/sign-in"}>
+                positronX.io
+              </Nav.Link>
+            </Navbar.Brand>
+            <Navbar.Collapse
+              className="collapse navbar-collapse"
+              id="navbarTogglerDemo02"
+            >
+              <Nav className="navbar-nav ml-auto">
+                <Nav.Item className="nav-item">
+                  <Nav.Link className="nav-link" to={"/sign-in"}>
+                    Login
+                  </Nav.Link>
+                </Nav.Item>
+                <Nav.Item className="nav-item">
+                  <Nav.Link className="nav-link" to={"/sign-up"}>
+                    Sign up
+                  </Nav.Link>
+                </Nav.Item>
+              </Nav>
+            </Navbar.Collapse>
+          </Container>
+        </Navbar> */}
+
+        <Navigation />
+
+        {/* <div className="auth-wrapper">
+          <div className="auth-inner">
+            <Switch>
+              <Route exact path="/" component={LandingPage} />
+              <Route path="/sign-in" component={Login} />
+              <Route path="/sign-up" component={SignUp} />
+            </Switch>
+          </div>
+        </div> */}
+      </div>
+    </Router>
   );
 }
 
