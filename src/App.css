@@ -17,30 +17,55 @@
 .jumbotron {
   text-align: center;
   font-family: "LifeCraft";
-  margin-bottom: 0px !important;
-  margin-left: 0px !important;
+  margin-bottom: 15px !important;
+  margin-left: 0px;
   margin-right: 0px;
-  background-color: white !important;
-  /* background-image: url(images/battle.jpg); */
-  /* background-size: cover; */
-  /* color: gold; */
+  margin: 10px 10px 10px 10px;
+  /* background-color: white !important; */
+  /*  */
+  /* background-color: transparent !important; */
+  /* background-color: aliceblue; */
+  /* background-color: !important; */
+  border-radius: 15px !important;
+  /* color: yellow; */
+  /* color: black; */
+  text-shadow: 4px 2px 0px black;
+  background-image: url(images/battle.jpg);
+  background-size: cover;
+  /* color: black; */
+  color: gold;
   /* text-shadow: 2px 2px black; */
+  /* text-shadow: 2px 2px yellow; */
+  text-shadow: 2px 2px 2px black;
 }
 .jumbotron h1 {
-  font-size: 60px;
+  font-size: 80px;
   /* color: gold */
 }
 .jumbotron p {
-  font-size: large;
-  margin-bottom: 0px;
+  font-size: 24px;
+  /* margin-bottom: 15px; */
 }
 
 .landing-images {
-  width: 100px;
+  width: 50%;
   height: auto;
+  /* padding-top: 5px; */
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border-radius: 15px;
 }
 .landing-button {
   font-family: "LifeCraft";
+}
+.landing-button-row {
+  margin-top: -80px;
+  /* min-width: 100px; */
+  /* max-width: 80px; */
+}
+.landing-button > a > button {
+  min-width: 150px;
+  max-width: 80px;
 }
 
 .center {

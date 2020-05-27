@@ -35,18 +35,13 @@ function Footer() {
   );
 }
 
-// function ImageProfile() {
-//   return ;
-//   return ;
-// }
-
 function LandingPage() {
   return (
     // <Router>
     <Container>
       <Row>
-        <Col xs={0}></Col>
-        <Col xs={12}>
+        <Col xs={1}></Col>
+        <Col xs={10}>
           <Jumbotron className="jumbotron">
             <h1>Skills-Tab</h1>
             <br></br>
@@ -54,7 +49,7 @@ function LandingPage() {
             <p>Grow your skills with Skills-Tab.</p>
           </Jumbotron>
         </Col>
-        <Col xs={0}></Col>
+        <Col xs={1}></Col>
       </Row>
       <Row>
         <Col xs={5}>
@@ -69,12 +64,12 @@ function LandingPage() {
           <img src={fighter} alt="fighter" className="landing-images center" />
         </Col>
       </Row>
-      <Row>
+      <Row className="landing-button-row">
         <Col xs={3}></Col>
         <Col xs={6}>
           <p className="center landing-button">
             <Link to={"/sign-up"}>
-              <Button variant="warning" size="lg">
+              <Button variant="warning" className="btn" size="lg">
                 Sign Up
               </Button>
             </Link>
@@ -88,11 +83,13 @@ function LandingPage() {
         <Col xs={6}>
           <p className="center landing-button">
             <NavLink to={"/sign-in"}>
-              <Button variant="warning" size="lg">
+              <Button variant="warning" className="btn" size="lg">
                 Login
               </Button>
             </NavLink>
           </p>
+          <br></br>
+          <br></br>
         </Col>
         <Col xs={3}></Col>
       </Row>

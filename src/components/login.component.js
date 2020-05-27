@@ -8,21 +8,6 @@ import Button from "react-bootstrap/Button";
 export default class Login extends Component {
   render() {
     return (
-      // <div>
-      //   <h3>React Login Component</h3>
-      // </div>
-      // <form>
-      //   <h3>Sign In</h3>
-
-      //   <div className="form-group">
-      //     <label>Email address</label>
-      //     <input
-      //       type="email"
-      //       className="form-control"
-      //       placeholder="Enter email"
-      //     />
-      //   </div>
-      // </form>
       <Container>
         <Row>
           <Col xs={2}></Col>
@@ -30,6 +15,7 @@ export default class Login extends Component {
             <br></br>
             <Form className="loginPage">
               <h1 className="center">Sign In</h1>
+              <hr></hr>
               <br></br>
               <Form.Group controlId="formBasicEmail">
                 <Form.Label>Email address</Form.Label>
