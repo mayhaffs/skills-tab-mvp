@@ -1,11 +1,67 @@
 import React, { Component } from "react";
+import "./login.component.css";
+import "bootstrap/dist/css/bootstrap.min.css";
+import { Col, Row, Form } from "react-bootstrap";
+import Container from "react-bootstrap/Container";
+import Navbar from "react-bootstrap/Navbar";
+import Nav from "react-bootstrap/Nav";
+import Jumbotron from "react-bootstrap/Jumbotron";
+import Button from "react-bootstrap/Button";
 
 export default class Login extends Component {
   render() {
     return (
-      <div>
-        <h3>React Login Component</h3>
-      </div>
+      // <div>
+      //   <h3>React Login Component</h3>
+      // </div>
+      // <form>
+      //   <h3>Sign In</h3>
+
+      //   <div className="form-group">
+      //     <label>Email address</label>
+      //     <input
+      //       type="email"
+      //       className="form-control"
+      //       placeholder="Enter email"
+      //     />
+      //   </div>
+      // </form>
+      <Container>
+        <Row>
+          <Col xs={2}></Col>
+          <Col xs={8}>
+            <br></br>
+            <Form className="loginPage">
+              <h1 className="center">Sign In</h1>
+              <br></br>
+              <Form.Group controlId="formBasicEmail">
+                <Form.Label>Email address</Form.Label>
+                <Form.Control type="email" placeholder="Enter email" />
+                <Form.Text className="text-muted">
+                  {/* We'll never share your email with anyone else. */}
+                </Form.Text>
+              </Form.Group>
+
+              <Form.Group controlId="formBasicPassword">
+                <Form.Label>Password</Form.Label>
+                <Form.Control type="password" placeholder="Password" />
+              </Form.Group>
+              <Form.Group controlId="formBasicCheckbox">
+                <Form.Check type="checkbox" label="Remember Me" />
+              </Form.Group>
+              <Button variant="primary" className="btn-block" type="submit">
+                Submit
+              </Button>
+              <br></br>
+              <p className="forgot-password text-right">
+                Forgot <a href="#">password?</a>
+              </p>
+            </Form>
+          </Col>
+          <Col xs={2}></Col>
+        </Row>
+        <br></br>
+      </Container>
     );
   }
 }
