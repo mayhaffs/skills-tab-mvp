@@ -3,9 +3,6 @@ import "./login.component.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 import { Col, Row, Form } from "react-bootstrap";
 import Container from "react-bootstrap/Container";
-import Navbar from "react-bootstrap/Navbar";
-import Nav from "react-bootstrap/Nav";
-import Jumbotron from "react-bootstrap/Jumbotron";
 import Button from "react-bootstrap/Button";
 
 export default class Login extends Component {
