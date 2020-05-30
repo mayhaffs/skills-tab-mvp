@@ -54,6 +54,8 @@ export default class SignUp extends Component {
           <Col xs={2}></Col>
         </Row>
         <br></br>
+        <br></br>
+        <br></br>
       </Container>
     );
   }

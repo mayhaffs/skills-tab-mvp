@@ -5,12 +5,19 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  /* overflow-y: scroll; */
+  overflow-y: clip;
+  overflow-x: hidden;
 }
 
 body > #root > div {
-  height: 100vh;
+  overflow-y: scroll;
+  margin-top: 56px;
+  /* height: 100vh; */
+  min-height: 100vh;
   background-image: url(images/unnamed.jpg);
   background-size: cover;
+  /* overflow: visible; */
 }
 
 code {

@@ -163,7 +163,7 @@ function LandingPage() {
 function Navigation() {
   return (
     <Router basename="/skills-tab-mvp/">
-      <Navbar bg="dark" variant="dark">
+      <Navbar bg="dark" variant="dark" fixed="top">
         <NavLink className="navbarBrand" to={"/"}>
           Skills-Tab
         </NavLink>
