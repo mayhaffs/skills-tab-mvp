@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "51aec044a037c66dbba7c77c6a1699ad",
+    "revision": "0b8a1efa1d2a8c5c34cee212ec6baf07",
     "url": "/skills-tab-mvp/index.html"
   },
   {
@@ -8,8 +8,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/skills-tab-mvp/static/css/2.af3c1da9.chunk.css"
   },
   {
-    "revision": "34970bf505fa2f9cbbb0",
-    "url": "/skills-tab-mvp/static/css/main.01b43bc2.chunk.css"
+    "revision": "f624458972a9ce98e4d1",
+    "url": "/skills-tab-mvp/static/css/main.fdfaa2a1.chunk.css"
   },
   {
     "revision": "cefef6e72f5b051727f6",
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/skills-tab-mvp/static/js/2.574f9104.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "34970bf505fa2f9cbbb0",
-    "url": "/skills-tab-mvp/static/js/main.fc215d1e.chunk.js"
+    "revision": "f624458972a9ce98e4d1",
+    "url": "/skills-tab-mvp/static/js/main.2e5da0bf.chunk.js"
   },
   {
     "revision": "db9d459d6a6a349225e5",
