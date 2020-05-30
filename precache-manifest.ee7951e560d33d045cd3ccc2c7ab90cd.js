@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "832a382d7d3918f943b82973fc8a78bc",
+    "revision": "08d282c90eb62cdb5b75ac1f30ff43aa",
     "url": "/skills-tab-mvp/index.html"
   },
   {
-    "revision": "cefef6e72f5b051727f6",
+    "revision": "4fe6ee1831b6a953cd70",
     "url": "/skills-tab-mvp/static/css/2.af3c1da9.chunk.css"
   },
   {
-    "revision": "6eaf55b040fa30f88fc1",
-    "url": "/skills-tab-mvp/static/css/main.d67c39be.chunk.css"
+    "revision": "5c55bdbef65e87f428f2",
+    "url": "/skills-tab-mvp/static/css/main.debcc987.chunk.css"
   },
   {
-    "revision": "cefef6e72f5b051727f6",
-    "url": "/skills-tab-mvp/static/js/2.574f9104.chunk.js"
+    "revision": "4fe6ee1831b6a953cd70",
+    "url": "/skills-tab-mvp/static/js/2.c6f0b2c9.chunk.js"
   },
   {
     "revision": "3453b8997016469371284a28c0e873e2",
-    "url": "/skills-tab-mvp/static/js/2.574f9104.chunk.js.LICENSE.txt"
+    "url": "/skills-tab-mvp/static/js/2.c6f0b2c9.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "6eaf55b040fa30f88fc1",
-    "url": "/skills-tab-mvp/static/js/main.2e5da0bf.chunk.js"
+    "revision": "5c55bdbef65e87f428f2",
+    "url": "/skills-tab-mvp/static/js/main.8268b2b9.chunk.js"
   },
   {
     "revision": "db9d459d6a6a349225e5",

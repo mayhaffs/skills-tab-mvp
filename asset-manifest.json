@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/skills-tab-mvp/static/css/main.d67c39be.chunk.css",
-    "main.js": "/skills-tab-mvp/static/js/main.2e5da0bf.chunk.js",
-    "main.js.map": "/skills-tab-mvp/static/js/main.2e5da0bf.chunk.js.map",
+    "main.css": "/skills-tab-mvp/static/css/main.debcc987.chunk.css",
+    "main.js": "/skills-tab-mvp/static/js/main.8268b2b9.chunk.js",
+    "main.js.map": "/skills-tab-mvp/static/js/main.8268b2b9.chunk.js.map",
     "runtime-main.js": "/skills-tab-mvp/static/js/runtime-main.5f3a06ed.js",
     "runtime-main.js.map": "/skills-tab-mvp/static/js/runtime-main.5f3a06ed.js.map",
     "static/css/2.af3c1da9.chunk.css": "/skills-tab-mvp/static/css/2.af3c1da9.chunk.css",
-    "static/js/2.574f9104.chunk.js": "/skills-tab-mvp/static/js/2.574f9104.chunk.js",
-    "static/js/2.574f9104.chunk.js.map": "/skills-tab-mvp/static/js/2.574f9104.chunk.js.map",
+    "static/js/2.c6f0b2c9.chunk.js": "/skills-tab-mvp/static/js/2.c6f0b2c9.chunk.js",
+    "static/js/2.c6f0b2c9.chunk.js.map": "/skills-tab-mvp/static/js/2.c6f0b2c9.chunk.js.map",
     "index.html": "/skills-tab-mvp/index.html",
-    "precache-manifest.6e070d1430c59a027c1c94847e5f81fd.js": "/skills-tab-mvp/precache-manifest.6e070d1430c59a027c1c94847e5f81fd.js",
+    "precache-manifest.ee7951e560d33d045cd3ccc2c7ab90cd.js": "/skills-tab-mvp/precache-manifest.ee7951e560d33d045cd3ccc2c7ab90cd.js",
     "service-worker.js": "/skills-tab-mvp/service-worker.js",
     "static/css/2.af3c1da9.chunk.css.map": "/skills-tab-mvp/static/css/2.af3c1da9.chunk.css.map",
-    "static/css/main.d67c39be.chunk.css.map": "/skills-tab-mvp/static/css/main.d67c39be.chunk.css.map",
-    "static/js/2.574f9104.chunk.js.LICENSE.txt": "/skills-tab-mvp/static/js/2.574f9104.chunk.js.LICENSE.txt",
+    "static/css/main.debcc987.chunk.css.map": "/skills-tab-mvp/static/css/main.debcc987.chunk.css.map",
+    "static/js/2.c6f0b2c9.chunk.js.LICENSE.txt": "/skills-tab-mvp/static/js/2.c6f0b2c9.chunk.js.LICENSE.txt",
     "static/media/signup.component.css": "/skills-tab-mvp/static/media/LifeCraft_Font.1dd8d81c.ttf",
     "static/media/App.css": "/skills-tab-mvp/static/media/battle.c468970e.jpg",
     "static/media/fighter.png": "/skills-tab-mvp/static/media/fighter.b2a350f6.png",
@@ -23,8 +23,8 @@
   "entrypoints": [
     "static/js/runtime-main.5f3a06ed.js",
     "static/css/2.af3c1da9.chunk.css",
-    "static/js/2.574f9104.chunk.js",
-    "static/css/main.d67c39be.chunk.css",
-    "static/js/main.2e5da0bf.chunk.js"
+    "static/js/2.c6f0b2c9.chunk.js",
+    "static/css/main.debcc987.chunk.css",
+    "static/js/main.8268b2b9.chunk.js"
   ]
 }
