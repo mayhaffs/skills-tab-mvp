@@ -14,8 +14,8 @@ import Navbar from "react-bootstrap/Navbar";
 import Nav from "react-bootstrap/Nav";
 import Jumbotron from "react-bootstrap/Jumbotron";
 import Button from "react-bootstrap/Button";
-import fighter from "./images/_fighter.png";
-import sorcerer from "./images/_sorcerer.png";
+import fighter from "./images/fighter.png";
+import sorcerer from "./images/sorcerer.png";
 
 import Login from "./components/login.component";
 import SignUp from "./components/signup.component";
