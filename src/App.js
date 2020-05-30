@@ -1,5 +1,6 @@
 import React from "react";
 import "./App.css";
+import "bootstrap/dist/css/bootstrap.min.css";
 import {
   BrowserRouter as Router,
   Switch,
@@ -25,8 +26,8 @@ function Footer() {
     <Navbar
       bg="dark"
       variant="dark"
-      fixed="bottom"
-      className="justify-content-center"
+      // fixed="bottom"
+      className="justify-content-center footer"
     >
       <Nav className="justify-content-center">
         <Nav.Link href="">-- currently under constrution --</Nav.Link>
@@ -163,7 +164,7 @@ function LandingPage() {
 function Navigation() {
   return (
     <Router basename="/skills-tab-mvp/">
-      <Navbar bg="dark" variant="dark" fixed="top">
+      <Navbar bg="dark" variant="dark">
         <NavLink className="navbarBrand" to={"/"}>
           Skills-Tab
         </NavLink>

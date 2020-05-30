@@ -10,8 +10,8 @@ export default class Login extends Component {
     return (
       <Container>
         <Row>
-          <Col xs={2}></Col>
-          <Col xs={8}>
+          <Col xs={1}></Col>
+          <Col xs={10}>
             <br></br>
             <Form className="loginPage">
               <h1 className="center">Sign In</h1>
@@ -41,7 +41,7 @@ export default class Login extends Component {
               </p>
             </Form>
           </Col>
-          <Col xs={2}></Col>
+          <Col xs={1}></Col>
         </Row>
         <br></br>
         <br></br>

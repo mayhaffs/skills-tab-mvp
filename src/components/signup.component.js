@@ -10,8 +10,8 @@ export default class SignUp extends Component {
     return (
       <Container>
         <Row>
-          <Col xs={2}></Col>
-          <Col xs={8}>
+          <Col xs={1}></Col>
+          <Col xs={10}>
             <br></br>
             <Form className="signupPage">
               <h1 className="center">Sign Up</h1>
@@ -51,7 +51,7 @@ export default class SignUp extends Component {
               <br></br>
             </Form>
           </Col>
-          <Col xs={2}></Col>
+          <Col xs={1}></Col>
         </Row>
         <br></br>
         <br></br>
