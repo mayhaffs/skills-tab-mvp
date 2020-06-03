@@ -99,68 +99,6 @@ function LandingPage() {
   );
 }
 
-// function App() {
-//   return (
-//     <div className="App">
-//       <Navigation />
-//       <LandingPage />
-//       <Footer />
-//     </div>
-//   );
-// }
-
-// function App() {
-//   return (
-//     <Router>
-//       <div className="App">
-//         <Navigation />
-//         <LandingPage />
-//         <Footer />
-//       </div>
-//     </Router>
-//   );
-// }
-
-// function App() {
-//   return (
-//     <Router>
-//       <div className="App">
-//         <nav className="navbar navbar-expand-lg navbar-light fixed-top">
-//           <div className="container">
-//             <Link className="navbar-brand" to={"/sign-in"}>
-//               positronX.io
-//             </Link>
-//             <div className="collapse navbar-collapse" id="navbarTogglerDemo02">
-//               <ul className="navbar-nav ml-auto">
-//                 <li className="nav-item">
-//                   <Link className="nav-link" to={"/sign-in"}>
-//                     Login
-//                   </Link>
-//                 </li>
-//                 <li className="nav-item">
-//                   <Link className="nav-link" to={"/sign-up"}>
-//                     Sign up
-//                   </Link>
-//                 </li>
-//               </ul>
-//             </div>
-//           </div>
-//         </nav>
-
-//         <div className="auth-wrapper">
-//           <div className="auth-inner">
-//             <Switch>
-//               <Route exact path="/" component={Login} />
-//               <Route path="/sign-in" component={Login} />
-//               <Route path="/sign-up" component={SignUp} />
-//             </Switch>
-//           </div>
-//         </div>
-//       </div>
-//     </Router>
-//   );
-// }
-
 function Navigation() {
   return (
     <Router basename="/skills-tab-mvp/">
@@ -171,12 +109,6 @@ function Navigation() {
         <Nav className="mr-auto">
           {/* <NavLink className="nav-link" to={"/"}>
             Home
-          </NavLink>
-          <NavLink className="nav-link" to={"/"}>
-            Features
-          </NavLink>
-          <NavLink className="nav-link" to={"/"}>
-            Pricing
           </NavLink> */}
         </Nav>
         <Nav className="ml-auto">
@@ -208,44 +140,7 @@ function App() {
   return (
     <Router>
       <div className="App">
-        {/* <Navbar className="navbar navbar-expand-lg navbar-light fixed-top">
-          <Container>
-            <Navbar.Brand>
-              <Nav.Link className="navbar-brand" to={"/sign-in"}>
-                positronX.io
-              </Nav.Link>
-            </Navbar.Brand>
-            <Navbar.Collapse
-              className="collapse navbar-collapse"
-              id="navbarTogglerDemo02"
-            >
-              <Nav className="navbar-nav ml-auto">
-                <Nav.Item className="nav-item">
-                  <Nav.Link className="nav-link" to={"/sign-in"}>
-                    Login
-                  </Nav.Link>
-                </Nav.Item>
-                <Nav.Item className="nav-item">
-                  <Nav.Link className="nav-link" to={"/sign-up"}>
-                    Sign up
-                  </Nav.Link>
-                </Nav.Item>
-              </Nav>
-            </Navbar.Collapse>
-          </Container>
-        </Navbar> */}
-
         <Navigation />
-
-        {/* <div className="auth-wrapper">
-          <div className="auth-inner">
-            <Switch>
-              <Route exact path="/" component={LandingPage} />
-              <Route path="/sign-in" component={Login} />
-              <Route path="/sign-up" component={SignUp} />
-            </Switch>
-          </div>
-        </div> */}
         <Footer />
       </div>
     </Router>
