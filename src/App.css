@@ -8,6 +8,10 @@
   color: gold;
   font-size: 20px;
 }
+.navbarBrand.active {
+  color: gold;
+  text-decoration: none;
+}
 
 .jumbotron {
   text-align: center;
